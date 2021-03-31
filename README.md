@@ -1,4 +1,4 @@
-# Medical Clinic
+Medical Clinic
 The project uses the objects:
 -Appointment
 -Clinic
