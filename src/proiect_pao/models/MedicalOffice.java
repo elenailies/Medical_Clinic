@@ -1,5 +1,3 @@
-package proiect_pao.models;
-
 public class MedicalOffice {
 	
 	private String name;
@@ -23,5 +21,12 @@ public class MedicalOffice {
 		this.clinicName = clinicName;
 	}
 	
+	@Override
+    public String toString() {
+        return "Client{" +
+                "name='" + name + '\'' +
+                ", clinicName=" + clinicName +
+                '}';
+    }
 
 }
