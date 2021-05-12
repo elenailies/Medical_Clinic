@@ -50,4 +50,16 @@ public class Appointment {
 	public void setReceptionist(Receptionist r) {
 		this.r = r;
 	}
+	
+	@Override
+    public String toString() {
+        return "Client{" +
+                "doctor='" + m + '\'' +
+                "customer='" + c + '\'' +
+                "receptionist='" + r + '\'' +
+                "date='" + date + '\'' +
+                "hour='" + hour + 
+               
+                '}';
+    }
 }
