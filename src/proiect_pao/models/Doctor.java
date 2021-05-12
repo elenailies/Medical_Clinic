@@ -12,5 +12,11 @@ public class Doctor extends Employee {
 		this.medicalOfficeName = medicalOfficeName;
 	}
 	
-	
+	@Override
+    public String toString() {
+        return "Client{" +
+                "medicalOfficeName='" + medicalOfficeName + 
+               
+                '}';
+    }
 }
