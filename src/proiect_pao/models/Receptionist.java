@@ -12,4 +12,11 @@ public class Receptionist extends Employee {
 		this.clinicName = clinicName;
 	}
 
+	@Override
+    public String toString() {
+        return "Client{" +
+                "clinicName='" + clinicName + 
+                
+                '}';
+    }
 }
